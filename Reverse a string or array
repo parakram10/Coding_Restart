@@ -3,7 +3,6 @@ Reverse a string or array(https://practice.geeksforgeeks.org/problems/reverse-a-
 
 string reverseWord(string str){
     int size = str.length();
-    if(size == 1) return str;
     int l = 0;
     int r = size-1;
     while(l<r){
